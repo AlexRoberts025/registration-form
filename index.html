@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Here Now</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form name="registration" onSubmit="return validation();">
+ <div class="doc">
+     <div class="header">
+        <h1>Registration Form</h1>
+    </div>
+
+    <form>
+    <div class="box">
+        <label for="fn">First Name:</label><br>
+            <input class="inbox" placeholder="" type="text" id="fn" name="fn"><br><br>
+    </div>  
+
+    <div class="box">    
+        <label for="ln">Last Name:</label><br>
+            <input class="inbox" placeholder="" type="text" id="ln" name="ln"><br><br>
+    </div>
+
+    <div class="gbox"> 
+        <label for="gen">Gender:</label><br>
+            <select id="gen" name="gen">
+                    <option selected="" value="Default">Select</option>
+                    <option>Male</option>
+                    <OPTION>Female</OPTION>
+            </select>
+    </div>
+
+    <div class="box">
+        <label for="phone">Phone Number:</label><br>
+            <input class="inbox" placeholder="" type="text" id="phone" name="phone"><br><br>
+    </div>
+
+    <div>
+     <input class="but" type="submit" value="Submit">
+     <input class="but" type="reset">
+    </div>
+</form>
+
+
+ </div>
+</body>
+</html>
